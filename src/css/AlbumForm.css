@@ -1,0 +1,58 @@
+.album-form-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 25px auto;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .album-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .album-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 4px;
+  }
+  
+  .clear-button, .create-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .clear-button {
+    background-color: #ff4d4d;
+  }
+  
+  .create-button {
+    background-color: #007bff;
+  }
+  
+  .clear-button:hover {
+    background-color: #e60000;
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3;
+  }
+  
